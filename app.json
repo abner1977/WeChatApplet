@@ -1,0 +1,40 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/mtGenerate/mtGenerate",
+    "pages/my/my"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#169BD5",
+    "navigationBarTitleText": "",
+    "navigationBarTextStyle": "white"
+  },
+  "tabBar": {
+    "selectedColor": "#169BD5",
+    "color": "#999",
+    "borderStyle": "white",
+    "backgroundColor": "#F0F0F0",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "开始记录",
+        "iconPath": "images/startNotClick.png",
+        "selectedIconPath": "images/startClick.png"
+      },
+      {
+        "pagePath": "pages/mtGenerate/mtGenerate",
+        "text": "生成忆刻",
+        "iconPath": "images/mtGenerateNotClick.png",
+        "selectedIconPath": "images/mtGenerateClick.png"
+      },
+      {
+        "pagePath": "pages/my/my",
+        "text": "个人中心",
+        "iconPath": "images/myNotClick.png",
+        "selectedIconPath": "images/myClick.png"
+      }
+    ]
+  }
+}
